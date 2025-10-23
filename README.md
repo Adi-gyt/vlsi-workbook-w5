@@ -26,7 +26,7 @@ make -j6
 /OpenROAD-flow-scripts/tools/install/OpenROAD/bin/openroad -version
 ```
 Screenshot:
-![OpenROAD Installation](images/openroad_installation.png)
+![OpenROAD Installation](images/openroad_installation.png.png)
 ---
 
 ## 2. Running the OpenROAD Flow
@@ -42,7 +42,7 @@ cd /OpenROAD-flow-scripts/flow
 make DESIGN_CONFIG=./designs/sky130hd/gcd/config.mk
 ```
 Screenshot:
-![Results Directory](images/results_directory.png)
+![Results Directory](images/results_directory.png.png)
 
 ---
 
@@ -51,14 +51,14 @@ Screenshot:
 Opened the generated 6_final.gds in KLayout to visualize the die/core area and confirm the floorplan boundaries.
 
 Screenshot:
-![Floorplan View](images/floorplan_view.png)
+![Floorplan View](images/floorplan_view.png.png)
 
 ## 4. Placement Stage
 
 Zoomed in to verify standard-cell placement. Observed multiple req_msg and resp_msg nets — clear indication of correct placement.
 
 Screenshot:
-![Placement View](images/placement_view.png)
+![Placement View](images/placement_view.png.png)
 ---
 
 ## Summary
